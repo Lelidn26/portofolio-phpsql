@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio || Leli Donaningrum</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Animasi Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<hr>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbar_logo">Lely<span>Dn.</span></a>
+        
+        <div class="navbar-nav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#menu" id="hamburger-menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+        </div>      
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="image" data-aos="fade-right">
+            <img src="./img/leli.png" alt="">
+        </div>
+        <div class="content" data-aos="fade-left">
+            <h1>WELCOME!</h1>
+            <h2>I Am a <span>UI/UX Designer</span></h2>
+            <p>Saya adalah seorang desainer UI/UX yang fokus pada perancangan antarmuka yang estetis, fungsional, dan berorientasi pada pengalaman pengguna.</p>
+            <button class="button" onclick="location.href='#portfolio'">Lihat Karya Saya!</button>  
+        </div>
+
+    </section>
+
+<hr/>
+
+    <!-- About -->
+     <section class="about" id="about">
+        <h2 class="heading"><span>ABOUT </span>ME</h2>
+
+        <div class="about-img" data-aos="zoom-in-up">
+            <img src="./img/LELI DONANINGRUM 4X6-1.jpg"alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content" data-aos="fade-up">
+            <h3>Halo! I Am Leli Donaningrum</h3>
+            <p>Seorang desainer dengan latar belakang pendidikan di bidang informatika dengan fokus pada UI/UX. Sejak tahun 2023, saya memiliki ketertarikan besar dalam menciptakan desain yang tidak hanya estetis, tetapi juga fungsional dan berdampak. Saya memiliki keahlian dalam berbagai aspek desain, termasuk: Desain UI/UX dan prototyping, desain grafis untuk branding dan media sosial. Saya selalu terbuka untuk kolaborasi dan eksplorasi ide baru.</p>
+        </div>
+
+     </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>MY SKILL</span></h2>
+
+        <div class="skills-row" data-aos="flip-down">
+            <div class="skills-column">
+                <h3 class="tittle">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        <div>
+        
+            <div class="skills-column">
+                <h3 class="tittle">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Grapic Design <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Digital Branding <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Mengapa saya -->
+     <section class="mengapa-saya" id="mengapa-saya">
+        <h2 class="heading">MENGAPA MEMILIH <span>SAYA?</span></h2>
+        
+            <div class="saya" data-aos="zoom-in">
+                <div class="card">
+                    <i class="icon fa fa-globe"></i>
+                    <h1>Web Design</h1>
+                    <div class="content">
+                        <p>Saya berpengalaman dalam desain web, khususnya dalam menciptakan tampilan yang responsif, user-friendly, dan sesuai dengan prinsip UX. Dengan keahlian dalam tools seperti Figma serta pengalaman dalam pengujian desain berbasis pengguna, saya dapat membantu meningkatkan kualitas dan efektivitas tampilan website Anda.</p>
+                    </div>
+                </div> 
+                
+                <div class="card">
+                    <i class="icon fa fa-edit"></i>
+                    <h1>Graphic Designing</h1>
+                    <div class="content">
+                        <p>Saya seorang graphic designer berpengalaman dengan keahlian dalam menciptakan desain visual yang kreatif dan profesional. Spesialisasi saya mencakup branding, ilustrasi, dan layout, dengan fokus pada desain yang menarik dan efektif.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="icon fa fa-briefcase"></i>
+                    <h1>Digital Branding</h1>
+                    <div class="content">
+                        <p>Saya berpengalaman dalam digital branding, dengan keahlian dalam membangun dan mengelola identitas brand secara online. Mulai dari strategi visual, tone of voice, hingga konsistensi di berbagai platform digital, saya siap menciptakan brand yang kuat, relevan, dan mudah dikenali. Dengan pendekatan kreatif dan analitis, saya membantu brand Anda membangun koneksi yang bermakna dengan audiens.</p>
+                    </div>
+                </div>
+
+            </div>
+     </section>
+
+     <!-- Testimoni -->
+     <section class="review" id="review">
+        <h2 class="heading">TESTIMONI <span>CLIENT</span></h2>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Terima kasih atas bantuan Anda dalam membangun website kami.</p>
+                <div class="user">
+                    <img src="./img/DIANA PUTRI  4X6.jpg" alt="user">
+                    <div class="user-info">
+                        <h3>Diana Putri Utari</h3>
+                        <h4><span>Owner TrinkketsGift</span></h4>
+                    </div>
+                </div>
+                <span class="fas-fa-quote-right"></span>
+            </div>
+
+        </div>
+     </section>
+
+   <!-- Portofolio -->
+   <section class="portfolio" id="portfolio">
+    <h2 class="title">PORTOFOLIO</h2>
+
+    <div class="portfolio-items" data-aos="fade-up">
+        <div class="portfolio-item">
+            <img src="./img/1.jpg" alt="Keep it Green">
+            <div class="portfolio-info">
+                <h3>Web Design</h3>
+                <p class="tools"><span>Figma</span> <span>Photoshop</span></p>
+                <p class="year">Jan, 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="./img/2.jpg" alt="Digital Agency">
+            <div class="portfolio-info">
+                <h3>Web Design</h3>
+                <p class="tools"><span>Figma</span> <span>Illustrator</span></p>
+                <p class="year">Dec, 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="./img/3.jpg" alt="Digital Agency">
+            <div class="portfolio-info">
+                <h3>Web Design</h3>
+                <p class="tools"><span>Figma</span> <span>Illustrator</span></p>
+                <p class="year">Jan, 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="./img/4.jpg" alt="Digital Agency">
+            <div class="portfolio-info">
+                <h3>Graphic Designing</h3>
+                <p class="tools"><span>Adobe</span> <span>Photoshop</span></p>
+                <p class="year">Feb, 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="./img/5.jpg" alt="Digital Agency">
+            <div class="portfolio-info">
+                <h3>Graphic Designing</h3>
+                <p class="tools"><span>Adobe</span> <span>Illustrator</span></p>
+                <p class="year">Feb, 2023</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="./img/6.jpg" alt="Digital Agency">
+            <div class="portfolio-info">
+                <h3>Graphic Designing</h3>
+                <p class="tools"><span>Adobe</span> <span>Illustrator</span></p>
+                <p class="year">Feb, 2023</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-container" data-aos="fade-up">
+            <h2>CONTACT</h2>
+            <form id="contactForm" action="/process_form.php" method="POST">
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" name="nama" id="nama">
+                    <div class="error" id="namaError"></div>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" id="email">
+                    <div class="error" id="emailError"></div>
+                </div>
+                <div class="form-group">
+                    <label>Nomor Handphone</label>
+                    <input type="text" name="phone" id="phone">
+                    <div class="error" id="phoneError"></div>
+                </div>
+                <div class="form-group">
+                    <label>Pesan</label>
+                    <textarea name="pesan" id="pesan"></textarea>
+                    <div class="error" id="pesanError"></div>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+    <div class="footer-container">
+        <div class="footer-section copyright">
+            <p>&copy; 2025 Leli Donaningrum. All Rights Reserved.</p>
+        </div>
+        <div class="footer-section links">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h4>Kontak</h4>
+            <p>Alamat: Jl. Contoh No. 123, Kota</p>
+            <p>Telepon: 0812-3456-7890</p>
+            <p>Email: contoh@email.com</p>
+        </div>
+        <div class="footer-section social">
+            <h4>Ikuti Kami</h4>
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </div>
+        <div class="footer-section policy">
+            <h4>Kebijakan</h4>
+            <ul>
+                <li><a href="#">Kebijakan Privasi</a></li>
+                <li><a href="#">Syarat Penggunaan</a></li>
+                <li><a href="#">Peta Situs</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
+</body>
+</html>
